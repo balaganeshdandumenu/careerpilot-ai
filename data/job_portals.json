@@ -1,0 +1,7 @@
+[
+  {"id":"linkedin","name":"LinkedIn Jobs","category":"Professional networking","url":"https://www.linkedin.com/jobs/","why":"Useful for role research, networking, and entry-level listings across industries.","experience":["student","fresher","experienced"]},
+  {"id":"wellfound","name":"Wellfound","category":"Startup hiring","url":"https://wellfound.com/jobs","why":"Startup roles often describe the product and team context clearly.","experience":["fresher","experienced"]},
+  {"id":"internshala","name":"Internshala","category":"Internships · India","url":"https://internshala.com/","why":"Internship and early-career opportunities with India-focused filters.","experience":["student","fresher"]},
+  {"id":"naukri","name":"Naukri.com","category":"India-focused job portal","url":"https://www.naukri.com/","why":"Broad India-based listings and role-specific search filters.","experience":["fresher","experienced"]},
+  {"id":"github-jobs","name":"GitHub Careers","category":"Direct company careers","url":"https://github.careers/careers-home","why":"Direct company listings can help you explore engineering teams and requirements.","experience":["student","fresher","experienced"]}
+]

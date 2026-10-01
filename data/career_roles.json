@@ -1,0 +1,30 @@
+[
+  {
+    "id": "ai-ml-engineer",
+    "title": "AI / ML Engineer",
+    "description": "Build, evaluate, and ship data-powered models.",
+    "skills": ["Python", "Git", "SQL", "NumPy", "Pandas", "Statistics", "Machine Learning", "Scikit-learn", "PyTorch", "Deep Learning", "APIs"],
+    "projects": ["model-api", "image-classifier"]
+  },
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Turn data into clear findings that support decisions.",
+    "skills": ["SQL", "Excel", "Statistics", "Python", "Pandas", "Data Visualization", "Tableau", "Communication", "Git"],
+    "projects": ["sales-dashboard", "cohort-analysis"]
+  },
+  {
+    "id": "frontend-developer",
+    "title": "Frontend Developer",
+    "description": "Create accessible, responsive experiences for the web.",
+    "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Git", "APIs", "Accessibility", "Testing"],
+    "projects": ["accessible-dashboard", "component-library"]
+  },
+  {
+    "id": "backend-developer",
+    "title": "Backend Developer",
+    "description": "Design reliable APIs, data flows, and server systems.",
+    "skills": ["Python", "SQL", "Git", "APIs", "Flask", "Testing", "Data Modeling", "Authentication", "Docker"],
+    "projects": ["model-api", "task-api"]
+  }
+]

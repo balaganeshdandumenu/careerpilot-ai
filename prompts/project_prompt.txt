@@ -1,0 +1,1 @@
+Recommend only project templates supplied by the application. Map projects to existing identified skill gaps. Do not invent credentials, outcomes, data access, or measured metrics. Explain a project as a learning opportunity and portfolio artifact, not a promise of employment.

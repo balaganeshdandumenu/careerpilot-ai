@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero section-wrap">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER, MADE CLEAR</div>
+    <h1>Build the career path <span>that fits you.</span></h1>
+    <p class="hero-intro">Understand your gap. Build your skills. Improve your resume. Move toward the role you want with a plan made around you.</p>
+    <div class="hero-actions">
+      <a class="button button-orange" href="{{ url_for('career.profile') }}">Create my career plan <span aria-hidden="true">↗</span></a>
+      <a class="button button-quiet" href="{{ url_for('resume.analyzer') }}"><span class="button-icon" aria-hidden="true">▤</span> Analyze my resume</a>
+    </div>
+    <div class="trust-line"><span class="trust-check" aria-hidden="true">✓</span> A practical guide, not a prediction of your future.</div>
+  </div>
+  <div class="hero-visual" aria-label="Career report preview for an AI and machine learning engineer">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="journey-stamp"><span class="stamp-dot"></span> YOUR CAREER, IN MOTION</div>
+    <div class="preview-window">
+      <div class="preview-topbar">
+        <div class="window-dots"><i></i><i></i><i></i></div>
+        <span>careerpilot.ai <span class="lock" aria-hidden="true">●</span></span>
+        <span class="preview-menu" aria-hidden="true">···</span>
+      </div>
+      <div class="preview-content">
+        <div class="preview-greeting">
+          <div><span class="mini-label">YOUR CAREER SNAPSHOT</span><h2>AI / ML Engineer</h2></div>
+          <span class="role-pill">IN FOCUS <span aria-hidden="true">↗</span></span>
+        </div>
+        <div class="preview-score-row">
+          <div class="readiness-score"><span class="score-ring"><svg viewBox="0 0 80 80" role="img" aria-label="72 percent role readiness"><circle class="ring-track" cx="40" cy="40" r="34"></circle><circle class="ring-value" cx="40" cy="40" r="34"></circle></svg><strong>72<span>%</span></strong></span></div>
+          <div class="readiness-copy"><span class="mini-label">ROLE READINESS</span><p>Good foundations. A few focused skills will move you forward.</p><a href="{{ url_for('career.profile') }}">See your strengths <span aria-hidden="true">→</span></a></div>
+        </div>
+        <div class="preview-divider"></div>
+        <div class="preview-next-head"><span class="mini-label">YOUR NEXT MILESTONE</span><span class="week-label">WEEK 02 / 04</span></div>
+        <div class="milestone-row">
+          <div class="milestone-track" aria-hidden="true"><span class="mile done"></span><span class="mile active"></span><span class="mile"></span><span class="mile"></span></div>
+          <div class="milestone-info"><strong>Build your first model</strong><span>PyTorch fundamentals · 3 sessions</span></div>
+          <span class="milestone-arrow" aria-hidden="true">↗</span>
+        </div>
+        <div class="preview-action"><span class="action-spark" aria-hidden="true">✳</span><span><b>One gap, one next step.</b><small>Learn → build → show your work.</small></span><span class="action-arrow" aria-hidden="true">→</span></div>
+      </div>
+    </div>
+    <div class="floating-note note-top"><span class="note-check" aria-hidden="true">✓</span><span><b>Skills mapped</b><small>to your target role</small></span></div>
+    <div class="floating-note note-bottom"><span class="note-signal" aria-hidden="true"></span><span><b>30 days</b><small>made for your pace</small></span></div>
+  </div>
+</section>
+
+<section class="proof-strip" aria-label="Career plan highlights">
+  <div class="proof-inner"><span>LESS GUESSING</span><i></i><span>MORE DOING</span><i></i><span>BUILT AROUND YOUR GOAL</span><i></i><span>YOUR PACE, YOUR PATH</span></div>
+</section>
+
+<section class="path-section section-wrap" id="how-it-works">
+  <div class="section-heading">
+    <div><div class="eyebrow"><span class="eyebrow-line"></span> THE GAP-TO-ACTION ENGINE</div><h2>Turn “not yet” into <span>what’s next.</span></h2></div>
+    <p>CareerPilot doesn’t stop at what’s missing. It connects every skill gap to a useful next move.</p>
+  </div>
+  <div class="path-steps">
+    <article class="path-step"><span class="step-index">01</span><div class="step-symbol symbol-target" aria-hidden="true"><span></span></div><h3>Choose your direction</h3><p>Tell us the role you’re aiming for and what you already bring.</p><span class="step-foot">YOUR PROFILE <span>↗</span></span></article>
+    <article class="path-step"><span class="step-index">02</span><div class="step-symbol symbol-gap" aria-hidden="true"><span></span><span></span><span></span></div><h3>See the real gap</h3><p>Separate strong foundations from skills still taking shape.</p><span class="step-foot">CLEAR PRIORITIES <span>↗</span></span></article>
+    <article class="path-step"><span class="step-index">03</span><div class="step-symbol symbol-route" aria-hidden="true"><span></span><span></span><span></span></div><h3>Make it actionable</h3><p>Follow a realistic roadmap with learning, practice, and projects.</p><span class="step-foot">YOUR NEXT 30 DAYS <span>↗</span></span></article>
+    <article class="path-step"><span class="step-index">04</span><div class="step-symbol symbol-proof" aria-hidden="true"><span></span><span></span></div><h3>Show your progress</h3><p>Strengthen your resume with work you can genuinely stand behind.</p><span class="step-foot">EVIDENCE THAT GROWS <span>↗</span></span></article>
+  </div>
+</section>
+
+<section class="closing-cta section-wrap">
+  <div class="closing-path" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  <div><span class="mini-label">A GOOD PLAN STARTS WITH ONE QUESTION</span><h2>Where do you want to go?</h2></div>
+  <a class="button button-dark" href="{{ url_for('career.profile') }}">Find my next step <span aria-hidden="true">↗</span></a>
+</section>
+{% endblock %}

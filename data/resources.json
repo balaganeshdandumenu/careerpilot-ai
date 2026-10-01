@@ -1,0 +1,18 @@
+[
+  {"id":"python-tutorial","title":"The Python Tutorial","type":"documentation","source":"Python Software Foundation","url":"https://docs.python.org/3/tutorial/","skills":["Python"],"minutes":45},
+  {"id":"numpy-quickstart","title":"NumPy quickstart","type":"documentation","source":"NumPy","url":"https://numpy.org/doc/stable/user/quickstart.html","skills":["NumPy"],"minutes":40},
+  {"id":"pandas-getting-started","title":"Getting started tutorials","type":"documentation","source":"pandas","url":"https://pandas.pydata.org/docs/getting_started/intro_tutorials/","skills":["Pandas"],"minutes":45},
+  {"id":"sqlbolt","title":"Interactive SQL lessons","type":"practice","source":"SQLBolt","url":"https://sqlbolt.com/","skills":["SQL"],"minutes":30},
+  {"id":"sklearn-mooc","title":"Machine learning in Python","type":"course","source":"scikit-learn","url":"https://inria.github.io/scikit-learn-mooc/","skills":["Machine Learning","Scikit-learn"],"minutes":50},
+  {"id":"pytorch-learn","title":"Learn the Basics","type":"documentation","source":"PyTorch","url":"https://pytorch.org/tutorials/beginner/basics/intro.html","skills":["PyTorch","Deep Learning"],"minutes":50},
+  {"id":"mdn-javascript","title":"JavaScript Guide","type":"documentation","source":"MDN Web Docs","url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide","skills":["JavaScript"],"minutes":40},
+  {"id":"react-learn","title":"Quick Start","type":"documentation","source":"React","url":"https://react.dev/learn","skills":["React"],"minutes":40},
+  {"id":"mdn-html","title":"HTML basics","type":"documentation","source":"MDN Web Docs","url":"https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content","skills":["HTML"],"minutes":35},
+  {"id":"mdn-css","title":"CSS styling basics","type":"documentation","source":"MDN Web Docs","url":"https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics","skills":["CSS"],"minutes":35},
+  {"id":"tableau-training","title":"Free training videos","type":"video","source":"Tableau","url":"https://www.tableau.com/learn/training","skills":["Tableau","Data Visualization"],"minutes":45},
+  {"id":"git-book","title":"Pro Git book","type":"documentation","source":"Git","url":"https://git-scm.com/book/en/v2","skills":["Git"],"minutes":35},
+  {"id":"flask-tutorial","title":"Flask tutorial","type":"documentation","source":"Pallets Projects","url":"https://flask.palletsprojects.com/en/stable/tutorial/","skills":["Flask","APIs"],"minutes":45},
+  {"id":"web-accessibility","title":"Accessibility fundamentals","type":"documentation","source":"MDN Web Docs","url":"https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility","skills":["Accessibility"],"minutes":35},
+  {"id":"python-practice","title":"Python exercises","type":"practice","source":"Exercism","url":"https://exercism.org/tracks/python","skills":["Python"],"minutes":30},
+  {"id":"frontend-practice","title":"Frontend Mentor challenges","type":"practice","source":"Frontend Mentor","url":"https://www.frontendmentor.io/challenges","skills":["HTML","CSS","JavaScript","React"],"minutes":45}
+]

@@ -1,0 +1,5 @@
+[
+  {"id":"aws-cloud-practitioner","name":"AWS Certified Cloud Practitioner","provider":"Amazon Web Services","url":"https://aws.amazon.com/certification/certified-cloud-practitioner/","skills":["AWS","Cloud"],"optional":true},
+  {"id":"tableau-desktop-specialist","name":"Tableau Desktop Specialist","provider":"Tableau","url":"https://www.tableau.com/learn/certification/desktop-specialist","skills":["Tableau","Data Visualization"],"optional":true},
+  {"id":"tensorflow-developer","name":"TensorFlow Developer Certificate","provider":"TensorFlow","url":"https://www.tensorflow.org/certificate","skills":["Machine Learning","Deep Learning"],"optional":true}
+]

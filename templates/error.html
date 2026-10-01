@@ -1,0 +1,3 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} | CareerPilot AI{% endblock %}
+{% block content %}<section class="page-shell empty-state error-state"><div class="empty-path" aria-hidden="true"><span>01</span><i></i><span>02</span><i></i><span>03</span></div><span class="eyebrow"><span class="eyebrow-line"></span> A QUICK RESET</span><h1>{{ title }}</h1><p>{{ message }}</p><div class="empty-actions"><a class="button button-orange" href="{{ url_for('resume.analyzer') }}">Try resume upload again <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ url_for('career.profile') }}">Build a career plan →</a></div></section>{% endblock %}

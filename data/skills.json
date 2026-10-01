@@ -1,0 +1,7 @@
+{
+  "Programming": ["Python", "JavaScript", "TypeScript", "Java", "C++"],
+  "Data": ["SQL", "Excel", "NumPy", "Pandas", "Statistics", "Data Visualization", "Tableau"],
+  "AI / ML": ["Machine Learning", "Scikit-learn", "PyTorch", "Deep Learning"],
+  "Web": ["HTML", "CSS", "React", "Flask", "APIs", "Accessibility", "Testing"],
+  "Cloud & tools": ["Git", "Docker", "AWS", "Linux"]
+}

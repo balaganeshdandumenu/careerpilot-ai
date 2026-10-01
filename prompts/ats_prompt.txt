@@ -1,0 +1,1 @@
+Compatibility dimensions are heuristic planning signals based on readable resume text, role keyword overlap, and recognizable sections. Do not claim a score represents any employer's ATS. Do not increase or alter numerical scores. Return brief plain-language explanations only, in the requested schema.
